@@ -16,9 +16,7 @@ html {
 }
 body {
     background-color: var(--light-gray);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
     height: 100vh;
 }
 
@@ -44,6 +42,7 @@ figure {
 figcaption p {
     color: var(--grayish-blue);
 }
+
 
 #img-qr-code {
     border-radius: 20px;
